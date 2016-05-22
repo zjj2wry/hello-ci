@@ -1,2 +1,2 @@
 FROM busybox
-CMD /bin/echo 'Hello world'
+ENTRYPOINT ["sleep", "600"]
