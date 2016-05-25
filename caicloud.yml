@@ -1,9 +1,11 @@
 ---
 
+build:
+  dockerfile_path: Dockerfile
+
 deploy:
   - application: deploy-test
     cluster: 283c0451-578c-4055-a23d-5d0945945318
     partition: tong-test
     containers:
     - con-1
-
