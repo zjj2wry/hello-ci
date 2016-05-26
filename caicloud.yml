@@ -1,8 +1,1 @@
 ---
-
-deploy:
-  - application: deploy-test
-    cluster: 9f261723-0c01-451e-a989-8c53513baed5
-    partition: tong-test
-    containers:
-    - con-1
