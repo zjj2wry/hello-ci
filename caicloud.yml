@@ -1,4 +1,6 @@
 ---
+build:
+  context_dir: .
 
 deploy:
   - application: deploy-test
